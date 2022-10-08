@@ -86,7 +86,9 @@ and this reports back...
 Hello, World!
 ```
 
-Now its time to add our own namespaces and code so I started with `oci/auth.clj` and then moved on to `oci/dbtools.clj` One nice thing about working with Clojure is the `REPL` (read eval print and loop) which just means that Clojure can be developed interactively. This is not exclusively a Lisp or Clojure feature.
+Now its time to add our own namespaces and code so I'll start with `oci/auth.clj` and then move on to `oci/dbtools.clj`. From here you can follow the commit history. Hopefully it is somewhat logical / easy enough to understand, though I am new to Clojure. Mistakes will be made.
+
+**Side note**: one nice thing about working with Clojure is the `REPL` (read eval print and loop) which just means that Clojure can be developed interactively. This is not exclusively a Lisp or Clojure feature.
 
 ### Dependencies
 
