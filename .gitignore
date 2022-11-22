@@ -13,4 +13,9 @@ pom.xml.asc
 .nrepl-port
 .cpcache/
 .clj-kondo/
+.calva/
 .lsp/
+
+.idea/
+.vscode/
+*.iml

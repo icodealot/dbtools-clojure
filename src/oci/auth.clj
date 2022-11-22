@@ -26,3 +26,9 @@
    (if profile
      (new ConfigFileAuthenticationDetailsProvider profile)
      (new ConfigFileAuthenticationDetailsProvider default))))
+
+(defn root-compartment
+  ([]
+   (root-compartment default))
+  ([profile]
+   (.get (get-config profile) "tenancy")))

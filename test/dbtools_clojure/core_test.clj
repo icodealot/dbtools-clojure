@@ -1,5 +1,5 @@
 (ns dbtools-clojure.core-test
-  (:require [clojure.test :refer :all]
+  (:require [clojure.test :refer [deftest is testing]]
             [dbtools-clojure.core :refer :all]))
 
 (deftest a-test
